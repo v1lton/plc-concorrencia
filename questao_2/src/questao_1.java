@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Main {
+class Main {
     private int numPistas;
     private final Lock lock = new ReentrantLock();
     private final Condition[] pistas;
